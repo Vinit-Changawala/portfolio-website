@@ -1,0 +1,3 @@
+Put your real images, logos and favicon in this folder
+(e.g. /public/work/branding-1.jpg), then reference them
+from lib/data.ts once you replace the placeholder data.
