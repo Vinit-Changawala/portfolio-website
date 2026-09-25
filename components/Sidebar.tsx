@@ -24,7 +24,7 @@ export function Sidebar() {
           className="flex items-center gap-[10px] font-serif text-[15px]"
         >
           <LogoMini />
-          Your Name
+          Rushvi Changawala
         </Link>
         <button
           aria-label="Open menu"

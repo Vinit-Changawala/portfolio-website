@@ -16,7 +16,7 @@ export function Logo() {
 export function LogoMini() {
   return (
     <span className="flex h-7 w-7 items-center justify-center rounded-full border border-lineside text-[11px]">
-      AN
+      RC
     </span>
   );
 }
