@@ -12,6 +12,7 @@ export function ContactForm() {
     const data = {
       name: (form.elements.namedItem("name") as HTMLInputElement).value,
       email: (form.elements.namedItem("email") as HTMLInputElement).value,
+      phone: (form.elements.namedItem("phone") as HTMLInputElement).value,
       message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
     };
 
@@ -52,6 +53,17 @@ export function ContactForm() {
           name="email"
           type="email"
           required
+          className="w-full border-0 border-b border-line bg-transparent py-[10px] px-[2px] outline-none focus:border-accent"
+        />
+      </div>
+      <div className="mb-[22px]">
+        <label htmlFor="phone" className="mb-2 block text-[12.5px] tracking-wide opacity-70">
+          Phone (optional)
+        </label>
+        <input
+          id="phone"
+          name="phone"
+          type="tel"
           className="w-full border-0 border-b border-line bg-transparent py-[10px] px-[2px] outline-none focus:border-accent"
         />
       </div>
